@@ -1,0 +1,262 @@
+--- MENU ITEMS IMAGES ---
+1. Iced Caramel Latte
+   Category: cold_drink
+   FoodType: veg
+   Image: /images/latte_3d.png
+
+2. Hot Cappuccino
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1509042239860-f550ce710b93?fm=jpg&w=800&fit=crop
+
+3. Strawberry Frappuccino
+   Category: cold_drink
+   FoodType: veg
+   Image: /images/strawberry_3d.png
+
+4. Hot Chocolate
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=800&auto=format&fit=crop
+
+5. Mango Smoothie
+   Category: cold_drink
+   FoodType: veg
+   Image: /images/mango_3d.png
+
+6. Masala Chai
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?q=80&w=800&auto=format&fit=crop
+
+7. Crispy Samosa (2pcs)
+   Category: snack
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop
+
+8. French Fries
+   Category: snack
+   FoodType: veg
+   Image: /images/fries_3d.png
+
+9. Margherita Pizza
+   Category: meal
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?q=80&w=800&auto=format&fit=crop
+
+10. Paneer Tikka
+   Category: snack
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop
+
+11. Veg Biryani
+   Category: meal
+   FoodType: veg
+   Image: /images/biryani_3d.png
+
+12. Garden Fresh Salad
+   Category: meal
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop
+
+13. Egg Fried Rice
+   Category: meal
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1603133872878-684f208fb84b?q=80&w=800&auto=format&fit=crop
+
+14. Spanish Omelette
+   Category: meal
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1510629954389-c1e0da47d414?q=80&w=800&auto=format&fit=crop
+
+15. Egg Masala Curry
+   Category: meal
+   FoodType: egg
+   Image: /images/egg_masala_3d.png
+
+16. Egg Sandwich
+   Category: snack
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop
+
+17. Spicy Chicken Pakoda
+   Category: snack
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1565557623262-b51c2513a641?fm=jpg&w=800&fit=crop
+
+18. Classic Cheeseburger
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1568901346375-23c9450c58cd?fm=jpg&w=800&fit=crop
+
+19. Grilled Chicken Salad
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1512621776951-a57141f2eefd?fm=jpg&w=800&fit=crop
+
+20. Butter Chicken
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?fm=jpg&w=800&fit=crop
+
+21. Grilled Salmon
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1467003909585-2f8a72700288?fm=jpg&w=800&fit=crop
+
+22. Chicken Wings (6pcs)
+   Category: snack
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1527477396000-e27163b481c2?q=80&w=800&auto=format&fit=crop
+
+23. Grill Paneer Steak
+   Category: meal
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&auto=format&fit=crop
+
+24. Thai Green Curry
+   Category: meal
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&auto=format&fit=crop
+
+25. Mushroom Risotto
+   Category: meal
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=800&auto=format&fit=crop
+
+26. Double Cheese Egg Burger
+   Category: meal
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&auto=format&fit=crop
+
+27. Chicken Katsu Curry
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1529692236671-f1f6e9460272?w=800&auto=format&fit=crop
+
+28. BBQ Pork Ribs
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop
+
+29. Prawn Pad Thai
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&auto=format&fit=crop
+
+30. Lamb Shepherd's Pie
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&auto=format&fit=crop
+
+31. Cheesy Garlic Bread
+   Category: snack
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=800&auto=format&fit=crop
+
+32. Loaded Nachos
+   Category: snack
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=800&auto=format&fit=crop
+
+33. Veggie Spring Rolls
+   Category: snack
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1544378730-8b5104b18790?w=800&auto=format&fit=crop
+
+34. Devilled Eggs
+   Category: snack
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1534073828943-f801091bb18c?w=800&auto=format&fit=crop
+
+35. Fish and Chips
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1524339102455-6fe5750875e5?w=800&auto=format&fit=crop
+
+36. Crispy Calamari
+   Category: snack
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&auto=format&fit=crop
+
+37. Flat White
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format&fit=crop
+
+38. Vanilla Latte
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop
+
+39. Caramel Macchiato
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1485808191679-5f63bb3ff868?w=800&auto=format&fit=crop
+
+40. Mocha Choco-Late
+   Category: coffee
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&auto=format&fit=crop
+
+41. Berry Blast Smoothie
+   Category: cold_drink
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=800&auto=format&fit=crop
+
+42. Matcha Ice Latte
+   Category: cold_drink
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1515823149245-8942cf77a25c?w=800&auto=format&fit=crop
+
+43. Fresh Mint Mojito
+   Category: cold_drink
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800&auto=format&fit=crop
+
+44. Cold Brew Coffee
+   Category: cold_drink
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1517701604599-bb28b5a50dd2?w=800&auto=format&fit=crop
+
+45. Avocado Shake
+   Category: cold_drink
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&auto=format&fit=crop
+
+46. Tandoori Chicken Full
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1626777553335-513682976b97?w=800&auto=format&fit=crop
+
+47. Sushi Platter (12pcs)
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&auto=format&fit=crop
+
+48. Beef Steak Diane
+   Category: meal
+   FoodType: non-veg
+   Image: https://images.unsplash.com/photo-1546241072-48010ad28c2e?w=800&auto=format&fit=crop
+
+49. Red Velvet Cake
+   Category: snack
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=800&auto=format&fit=crop
+
+50. Tiramisu
+   Category: snack
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&auto=format&fit=crop
+
+51. Greek Salad
+   Category: meal
+   FoodType: veg
+   Image: https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&auto=format&fit=crop
+
+52. Linguine Carbonara
+   Category: meal
+   FoodType: egg
+   Image: https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&auto=format&fit=crop
+
+-------------------------
