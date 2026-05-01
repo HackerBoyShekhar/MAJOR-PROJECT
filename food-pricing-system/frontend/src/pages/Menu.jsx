@@ -14,7 +14,7 @@ const Menu = () => {
     const [activeFoodType, setActiveFoodType] = useState('all');
     const { addToast } = useToast();
 
-    const API_URL = 'https://major-project-eh18.onrender.com/api';
+    const API_URL = 'https://major-project-ehl8.onrender.com/api';
 
     useEffect(() => {
         fetchMenu();
