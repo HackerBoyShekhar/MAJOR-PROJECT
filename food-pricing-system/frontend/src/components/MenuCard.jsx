@@ -67,7 +67,7 @@ const MenuCard = ({ item, onOrder }) => {
         </div>
 
         {/* Action Area - Locked to the Bottom */}
-        <div className="mt-auto pt-4 border-t border-slate-100 dark:border-slate-800">
+        <div className="mt-auto pt-4">
           {appliedRules && appliedRules.length > 0 && (
             <div className="flex flex-wrap gap-1.5 mb-4 px-1">
               {appliedRules.map((rule, idx) => (
