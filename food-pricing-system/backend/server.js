@@ -51,6 +51,10 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/food_pricin
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
-app.listen(PORT, () => {
+app.get('/', (req, res) => {
+    res.send('LoveBites Backend is running properly!');
+});
+
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on port ${PORT}`);
 });
