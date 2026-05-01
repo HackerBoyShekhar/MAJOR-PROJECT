@@ -21,7 +21,7 @@ const Contact = () => {
         e.preventDefault();
         setStatus('loading');
         try {
-            await axios.post('http://localhost:8080/api/contact', formData);
+            await axios.post('https://major-project-eh18.onrender.com/api/contact', formData);
             setStatus('success');
             setFormData({ name: '', email: '', subject: '', message: '' });
             setTimeout(() => setStatus('idle'), 5000);

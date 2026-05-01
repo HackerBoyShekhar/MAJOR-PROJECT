@@ -28,7 +28,7 @@ const Home = () => {
   
   const { addToast } = useToast();
 
-  const API_URL = 'http://localhost:8080/api';
+  const API_URL = 'https://major-project-eh18.onrender.com/api';
 
   useEffect(() => {
     fetchMenu();
