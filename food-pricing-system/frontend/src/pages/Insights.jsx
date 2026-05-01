@@ -10,7 +10,7 @@ const Insights = () => {
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const { data } = await axios.get('https://major-project-eh18.onrender.com/api/menu');
+        const { data } = await axios.get('https://major-project-ehl8.onrender.com/api/menu');
         if (data.weather) setWeather(data.weather);
       } catch (err) {
         console.error("Failed to fetch insight data", err);

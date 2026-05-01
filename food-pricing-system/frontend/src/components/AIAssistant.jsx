@@ -90,7 +90,7 @@ const AIAssistant = ({ weather }) => {
     useEffect(() => {
         const fetchMenu = async () => {
             try {
-                const res = await fetch('https://major-project-eh18.onrender.com/api/menu');
+                const res = await fetch('https://major-project-ehl8.onrender.com/api/menu');
                 const data = await res.json();
                 setMenu(data.menu || []);
             } catch (err) {

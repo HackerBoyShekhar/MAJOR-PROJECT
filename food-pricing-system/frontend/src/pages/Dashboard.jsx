@@ -45,10 +45,10 @@ const Dashboard = () => {
     const fetchAllData = async () => {
         try {
             const [analyticsRes, messagesRes, subscribersRes, ordersRes] = await Promise.all([
-                axios.get('https://major-project-eh18.onrender.com/api/analytics'),
-                axios.get('https://major-project-eh18.onrender.com/api/contact'),
-                axios.get('https://major-project-eh18.onrender.com/api/newsletter'),
-                axios.get('https://major-project-eh18.onrender.com/api/orders')
+                axios.get('https://major-project-ehl8.onrender.com/api/analytics'),
+                axios.get('https://major-project-ehl8.onrender.com/api/contact'),
+                axios.get('https://major-project-ehl8.onrender.com/api/newsletter'),
+                axios.get('https://major-project-ehl8.onrender.com/api/orders')
             ]);
             
             setStats(analyticsRes.data);
@@ -70,7 +70,7 @@ const Dashboard = () => {
     const handleUpdateOrderStatus = async (orderId, newStatus) => {
         setProcessingAction(orderId);
         try {
-            await axios.patch(`https://major-project-eh18.onrender.com/api/orders/${orderId}`, { status: newStatus });
+            await axios.patch(`https://major-project-ehl8.onrender.com/api/orders/${orderId}`, { status: newStatus });
             addToast(`Order status updated to ${newStatus}`, 'success');
             fetchAllData();
         } catch (err) {
@@ -85,9 +85,9 @@ const Dashboard = () => {
         setProcessingAction(id);
         try {
             let endpoint = '';
-            if (type === 'orders') endpoint = `https://major-project-eh18.onrender.com/api/orders/${id}`;
-            if (type === 'messages') endpoint = `https://major-project-eh18.onrender.com/api/contact/${id}`;
-            if (type === 'subscribers') endpoint = `https://major-project-eh18.onrender.com/api/newsletter/${id}`;
+            if (type === 'orders') endpoint = `https://major-project-ehl8.onrender.com/api/orders/${id}`;
+            if (type === 'messages') endpoint = `https://major-project-ehl8.onrender.com/api/contact/${id}`;
+            if (type === 'subscribers') endpoint = `https://major-project-ehl8.onrender.com/api/newsletter/${id}`;
             
             await axios.delete(endpoint);
             addToast('Record successfully terminated.', 'success');
@@ -103,7 +103,7 @@ const Dashboard = () => {
         if (!window.confirm("Are you sure you want to permanently delete all orders?")) return;
         setClearing(true);
         try {
-            await axios.delete('https://major-project-eh18.onrender.com/api/orders/clear');
+            await axios.delete('https://major-project-ehl8.onrender.com/api/orders/clear');
             addToast('System reset initiated!', 'success');
             fetchAllData();
         } catch (err) {

@@ -25,11 +25,11 @@ const TrackRadar = () => {
         const fetchRadarData = async () => {
             try {
                 // Fetch current weather/menu
-                const menuRes = await axios.get('https://major-project-eh18.onrender.com/api/menu');
+                const menuRes = await axios.get('https://major-project-ehl8.onrender.com/api/menu');
                 if (menuRes.data.weather) setWeather(menuRes.data.weather);
 
                 // Fetch historical metrics
-                const metricsRes = await axios.get('https://major-project-eh18.onrender.com/api/metrics');
+                const metricsRes = await axios.get('https://major-project-ehl8.onrender.com/api/metrics');
                 setHistoricalData(metricsRes.data);
             } catch (err) {
                 console.error("Failed to fetch radar data", err);
@@ -56,7 +56,7 @@ const TrackRadar = () => {
         setTrackingLoading(true);
         setTrackingError('');
         try {
-            const { data } = await axios.get(`https://major-project-eh18.onrender.com/api/orders/${id}`);
+            const { data } = await axios.get(`https://major-project-ehl8.onrender.com/api/orders/${id}`);
             setOrderData(data);
         } catch (err) {
             setTrackingError('Order not found. Please check your ID.');

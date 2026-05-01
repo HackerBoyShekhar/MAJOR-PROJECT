@@ -11,7 +11,7 @@ const Login = () => {
     const { addToast } = useToast();
     const navigate = useNavigate();
 
-    const API_URL = 'https://major-project-eh18.onrender.com/api';
+    const API_URL = 'https://major-project-ehl8.onrender.com/api';
 
     const handleLogin = async (e) => {
         e.preventDefault();

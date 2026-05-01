@@ -52,7 +52,7 @@ const SignatureFooter = () => {
         if (!email) return;
         setLoading(true);
         try {
-            const { data } = await axios.post('https://major-project-eh18.onrender.com/api/newsletter/subscribe', { email });
+            const { data } = await axios.post('https://major-project-ehl8.onrender.com/api/newsletter/subscribe', { email });
             setMessage(data.message);
             setEmail('');
             setTimeout(() => setMessage(''), 5000);
