@@ -55,6 +55,7 @@ app.get('/', (req, res) => {
     res.send('LoveBites Backend is running properly!');
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on port ${PORT}`);
+const server = app.listen(PORT, '0.0.0.0', () => {
+    const addr = server.address();
+    console.log(`Server running on ${addr.address}:${addr.port}`);
 });
